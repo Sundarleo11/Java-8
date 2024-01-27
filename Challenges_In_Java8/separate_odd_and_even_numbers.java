@@ -22,7 +22,7 @@ public class separate_odd_and_even_numbers {
 		Set<Entry<Boolean, List<Integer>>> Entryset = MaptheNumber.entrySet();
 
 		for (Entry<Boolean, List<Integer>> entry : Entryset) {
-
+          //  System.out.println("get Key"+entry.getKey());
 			System.out.println("------------------");
 			if (!entry.getKey()) {
 				System.out.println("Even number");
